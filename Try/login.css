@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(77, 76, 76);
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+}
+
+#login-header{
+  justify-items: center;
+    align-items: center;
+    display: grid;
+}
+
+#form-main{
+    height: 50%;
+    width: 30%;
+    background-color: aliceblue;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+#form-id{
+
+  
+    display: grid;
+    align-items: center;
+    justify-items:center;
+}
+
+.form-field{
+    border: none;
+   border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 0px 5px 5px;
+}
+
+
+.form-field::placeholder {
+  color: #3a3a3a;
+}
+
+#form-field-submit {
+  width: 100%;
+  padding: 7px;
+  display: grid
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
